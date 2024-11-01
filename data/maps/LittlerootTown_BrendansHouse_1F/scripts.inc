@@ -296,9 +296,9 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "Beh finiranno dopo...\n"
 	.string "eh Comunque... \p"
     .string "Fuso quando è passato\n"
-    .string "era tutto ubriaco e mi ha\n"
-    .string "spostato l'orario dell'orologio di sopra\p"
-    .string "Ieri sono andata al lavoro in ritardo...\n"
+    .string "era tutto ubriaco e mi ha...\p"
+    .string "spostato l'orario dell'orologio di sopra\n"
+    .string "Ieri sono andata al lavoro in ritardo...\l"
     .string "eh niente, riesci?... grazie$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
@@ -311,39 +311,35 @@ PlayersHouse_1F_Text_GoSetTheClock:
 	.string "Go set the clock in your room, honey.$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
-	.string "JENNY: Oh! {PLAYER}, {PLAYER}!\n"
-	.string "Quick! Come quickly!$"
+	.string "JENNY: Oh! {PLAYER}, {PLAYER}!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
-	.string "JENNY: Look! It's PETALBURG GYM!\n"
-	.string "Maybe DAD will be on!$"
+	.string "JENNY: Guarda c'è MAMBA\n"
+	.string "in tele... WOW$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
-	.string "JENNY: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
-	.string "Too bad.$"
+	.string "JENNY: Sai però dopo\n"
+	.string "la svolta, ti ricordi...\l"
+    .string "il Tour in america?...\p"
+	.string "beh... fa niente... comunque$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
-	.string "Oh, yes.\n"
-	.string "One of DAD's friends lives in town.\p"
-	.string "PROF. BIRCH is his name.\p"
-	.string "He lives right next door, so you should\n"
-	.string "go over and introduce yourself.$"
+	.string "Vai a salutare LUIGIA\n"
+	.string "non più come te la ricordi...\p"
+	.string "è in fissa con i followers\n"
+	.string "beh niente, per il resto solito$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
-	.string "JENNY: See you, honey!$"
+	.string "JENNY: Hai della Droga?!?$"
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch:
-	.string "JENNY: Did you introduce yourself to\n"
-	.string "PROF. BIRCH?$"
+	.string "JENNY: Senti il Prof, è in giro da ste parti...$"
 
 PlayersHouse_1F_Text_YouShouldRestABit:
-	.string "JENNY: How are you doing, {PLAYER}?\n"
-	.string "You look a little tired.\p"
-	.string "I think you should rest a bit.$"
+	.string "JENNY: {PLAYER}, aspetta...$"
 
 PlayersHouse_1F_Text_TakeCareHoney:
-	.string "JENNY: Take care, honey!$"
+	.string "JENNY: Ecco fatto$"
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:
 	.string "JENNY: Oh? Did DAD give you that BADGE?\p"
@@ -372,14 +368,16 @@ PlayersHouse_1F_Text_Vigoroth2:
 	.string "Huggoh, uggo uggo…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
-	.string "INTERVIEWER: …We brought you this\n"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "TG1: Allora Daniele, \n"
+    .string "9 Dischi diamante, 150 Dischi D'Oro\l"
+    .string "Il primo ad arrivare a \l"
+    .string "3Mld di Ascoltatori mensili...$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
-	.string "There is a movie on TV.\p"
-	.string "Two men are dancing on a big piano\n"
-	.string "keyboard.\p"
-	.string "Better get going!$"
+	.string "TITTY: Ma Vaffanculo, Brutto Stronzo\n"
+	.string "FILIPPO: Hey TITTY ho un video per te\p"
+	.string "TITTY: uuUUAAAAAAAhh\p"
+	.string "hahahah Temptation Island$"
 
 PlayersHouse_1F_Text_RunningShoesManual:
 	.string "It's the instruction booklet for the\n"

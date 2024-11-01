@@ -248,10 +248,12 @@ LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeFemale::
 
 LittlerootTown_EventScript_FatMan::
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
+    addmoney 5
 	end
 
 LittlerootTown_EventScript_Boy::
 	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
+    removemoney 7
 	end
 
 LittlerootTown_EventScript_Twin::
@@ -947,7 +949,7 @@ LittlerootTown_Text_SwitchShoesWithRunningShoes:
 	.string "RUNNING SHOES.$"
 
 LittlerootTown_Text_ExplainRunningShoes:
-	.string "MOM: {PLAYER}, those shoes came with\n"
+	.string "JENNY: {PLAYER}, those shoes came with\n"
 	.string "instructions.\p"
 	.string "“Press the B Button while wearing these\n"
 	.string "RUNNING SHOES to run extra-fast!\p"
@@ -965,64 +967,51 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+	.string "Hai un deca?\n"
+	.string "Grazie tieni 5¥$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "PROF. BIRCH spends days in his LAB\n"
-	.string "studying, then he'll suddenly go out in\l"
-	.string "the wild to do more research…\p"
-	.string "When does PROF. BIRCH spend time\n"
-	.string "at home?$"
+	.string "HAHAHAHAH Fuso, ...  Fuso$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
-	.string "Um, um, um!\p"
-	.string "If you go outside and go in the grass,\n"
-	.string "wild POKéMON will jump out!$"
+	.string "Non puoi, non ricordi {PLAYER}\p$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
-	.string "It's dangerous if you don't have\n"
-	.string "your own POKéMON.$"
+	.string "Devi aspettare...$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
-	.string "Um, hi!\p"
-	.string "There are scary POKéMON outside!\n"
-	.string "I can hear their cries!\p"
-	.string "I want to go see what's going on,\n"
-	.string "but I don't have any POKéMON…\p"
-	.string "Can you go see what's happening\n"
-	.string "for me?$"
+	.string "Um, hey {PLAYER}!\n"
+	.string "C'è il Prof in pericolo...\l"
+	.string "AAAAAHHHH\p$"
 
 LittlerootTown_Text_YouSavedBirch:
-	.string "You saved PROF. BIRCH!\n"
-	.string "I'm so glad!$"
+	.string "Hai salvato Prof ora sta meglio...$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
-	.string "Are you going to catch POKéMON?\n"
-	.string "Good luck!$"
+	.string "Occhio sono bastardi i combattenti\n"
+    .string "quando vogliono combattere$"
 
 LittlerootTown_Text_TownSign:
-	.string "LITTLEROOT TOWN\n"
-	.string "“A town that can't be shaded any hue.”$"
+	.string "LITTLEROOT TOWN$"
 
 LittlerootTown_Text_ProfBirchsLab:
-	.string "PROF. BIRCH'S POKéMON LAB$"
+	.string "THE PROF LAB$"
 
 LittlerootTown_Text_PlayersHouse:
-	.string "{PLAYER}'s HOUSE$"
+	.string "JENNY's HOUSE$"
 
 LittlerootTown_Text_ProfBirchsHouse:
-	.string "PROF. BIRCH'S HOUSE$"
+	.string "LUIGIA'S HOUSE$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
-	.string "PROF. BIRCH: Well, well, {PLAYER}{KUN}!\n"
-	.string "That was good work out there!\p"
-	.string "I knew there was something special\n"
-	.string "about you when I first saw you,\l"
-	.string "but I never expected this.\p"
-	.string "Oh, yes. Do you still have the POKéDEX\n"
-	.string "I gave you?\p"
-	.string "I have something to show you.\n"
-	.string "Let's go to my LAB.$"
+	.string "Prof: Grazie {PLAYER}\n"
+	.string "Fuso non si sbagliava...\p"
+	.string "Sono ancora fortissimo\n"
+	.string "hai visto cosa gli ho fatto??\p"
+	.string "SSHh... ci sono le cimici\p"
+	.string "Forza prendi questo...\n"
+	.string "Si chiama POKEDEX,\l"
+    .string "lo sto sviluppando con Fuso.\p"
+    .string "sono cambiate tante cose qui...\n"
+    .string "VAI ORA!$"
 

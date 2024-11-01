@@ -321,16 +321,12 @@ LittlerootTown_MaysHouse_1F_Movement_MayGoUpstairs2:
 	step_end
 
 RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
-	.string "Oh, hello. And you are?\p"
+	.string "Hey sei tornat' {PLAYER}\p"
 	.string "… … … … … … … … …\n"
 	.string "… … … … … … … … …\p"
-	.string "Oh, you're {PLAYER}{KUN}, our new next-door\n"
-	.string "neighbor! Hi!\p"
-	.string "We have a {STR_VAR_1} about the same\n"
-	.string "age as you.\p"
-	.string "Our {STR_VAR_1} was excited about making\n"
-	.string "a new friend.\p"
-	.string "Our {STR_VAR_1} is upstairs, I think.$"
+	.string "Bene bene, su ci dovrebbe\n"
+    .string "essere LUIGIA...\n"
+	.string "Dai muoviti, è LIVE su TWITCH\p$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
 	.string "Like child, like father.\p"
@@ -340,10 +336,8 @@ RivalsHouse_1F_Text_LikeChildLikeFather:
 	.string "scrabbling about in grassy places.$"
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit:
-	.string "That {RIVAL}!\p"
-	.string "I guess our child is too busy with\n"
-	.string "POKéMON to notice that you came\l"
-	.string "to visit, {PLAYER}{KUN}.$"
+	.string "Si è in fissa con Fuso\n"
+	.string "Bah$"
 
 RivalsHouse_1F_Text_WentOutToRoute103:
 	.string "Oh, {RIVAL} went out to ROUTE 103\n"
@@ -360,28 +354,19 @@ RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
 	.string "worries about you, {PLAYER}{KUN}.$"
 
 RivalsHouse_1F_Text_MayWhoAreYou:
-	.string "Huh?\n"
-	.string "Who… Who are you?\p"
+	.string "Hey {PLAYER}, Ciaooo\n"
+	.string "Allora...\p"
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
-	.string "Oh, you're {PLAYER}{KUN}.\n"
-	.string "So your move was today.\p"
-	.string "Um… I'm MAY.\n"
-	.string "Glad to meet you!\p"
-	.string "I…\n"
-	.string "I have this dream of becoming friends\l"
-	.string "with POKéMON all over the world.\p"
-	.string "I… I heard about you, {PLAYER}{KUN}, from\n"
-	.string "my dad, PROF. BIRCH.\p"
-	.string "I was hoping that you would be nice,\n"
-	.string "{PLAYER}{KUN}, and that we could be friends.\p"
-	.string "Oh, this is silly, isn't it?\n"
-	.string "I… I've just met you, {PLAYER}{KUN}.\p"
-	.string "Eheheh…\p"
-	.string "Oh, no! I forgot!\p"
-	.string "I was supposed to go help Dad catch\n"
-	.string "some wild POKéMON!\p"
-	.string "{PLAYER}{KUN}, I'll catch you later!$"
+	.string "Minchia non sei cambiat',\n"
+	.string "ma tu non parli per risparmiare ossigeno?\p"
+	.string "Beh comunque\n"
+	.string "Hai visto le tette nuove?\p"
+	.string "Nuovo investimento hahaha\n"
+	.string "Così per i prosssimi film... TOP\l"
+	.string "Ho sentito Pierluigi prima...\p"
+	.string "Isola, GF a mani basse poi...\n"
+	.string "Dai ti saluto che ho da fare$"
 
 RivalsHouse_1F_Text_BrendanWhoAreYou:
 	.string "Hey!\n"
@@ -404,6 +389,5 @@ RivalsHouse_1F_Text_BrendanWhoAreYou:
 	.string "Some other time, okay?$"
 
 RivalsHouse_1F_Text_DoYouHavePokemon:
-	.string "Hi, neighbor!\p"
-	.string "Do you already have your\n"
-	.string "own POKéMON?$"
+	.string "FUSO, Sei il mio idolo...\n"
+    .string "Voglio tornare al CAMP-MyGuitar$"

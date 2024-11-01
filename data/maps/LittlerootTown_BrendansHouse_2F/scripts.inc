@@ -274,21 +274,20 @@ PlayersHouse_2F_EventScript_GameCube::
 
 PlayersHouse_2F_Text_ClockIsStopped:
 	.string "Beh sembra funzionare\n"
-	.string "Ah c'è un biglietto\p"
+	.string "Ah c'è un bigliettino\p"
 	.string "-- Sposta la lancetta,\n"
     .string "Per tornare in careggiata --\n"
 	.string "Mah non è rotto...$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "JENNY: {PLAYER}, Grazie\n"
-	.string "Vado giu a guardare\n"
-    .string "Tempation Island, Vieni?\p$"
+	.string "Vado giu, vieni?$"
 
 PlayersHouse_2F_Text_Notebook:
-    .string "{PLAYER} ha trovato dei soldi%"
+    .string "{PLAYER} ha trovato dei soldi$"
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} Guarda Ornago in una foto$"
+	.string "{PLAYER} Guarda la mappa$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
 	.string "It's a Nintendo GameCube.\p"

@@ -1,3 +1,10 @@
+//CUSTOM EVENT 
+LittlerootTown_EventScript_GetPotions::
+    finditem ITEM_POTION, 5
+    end
+
+
+//ORIGINAL
 Route102_EventScript_ItemPotion::
 	finditem ITEM_POTION
 	end
@@ -337,6 +344,15 @@ PetalburgWoods_EventScript_ItemGreatBall::
 PetalburgWoods_EventScript_ItemEther::
 	finditem ITEM_ETHER
 	end
+
+//String_mewtwo::
+//    .string "{PLAYER} riceve MEWTWO$"
+
+//PetalburgWoods_EventScript_ItemPokemon::
+	//givemon SPECIES_MEWTWO, 10
+    //msgbox String_mewtws
+//	finditem ITEM_MASTER_BALL
+//    end
 
 PetalburgWoods_EventScript_ItemParalyzeHeal::
 	finditem ITEM_PARALYZE_HEAL

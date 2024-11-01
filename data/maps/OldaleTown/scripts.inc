@@ -35,6 +35,7 @@ OldaleTown_EventScript_TownSign::
 
 OldaleTown_EventScript_Girl::
 	msgbox OldaleTown_Text_SavingMyProgress, MSGBOX_NPC
+    addmoney 10
 	end
 
 OldaleTown_EventScript_MartEmployee::
@@ -344,13 +345,11 @@ OldaleTown_Movement_ReturnToOriginalPosition:
 	step_end
 
 OldaleTown_Text_SavingMyProgress:
-	.string "I want to take a rest, so I'm saving my\n"
-	.string "progress.$"
+	.string "Ciao {PLAYER} è bello vederti...$"
 
 OldaleTown_Text_IWorkAtPokemonMart:
-	.string "Hi!\n"
-	.string "I work at a POKéMON MART.\p"
-	.string "Can I get you to come with me?$"
+	.string "Buongiorno {PLAYER}!\n"
+	.string "Allora come va?..\p$"
 
 OldaleTown_Text_ThisIsAPokemonMart:
 	.string "This is a POKéMON MART.\n"
@@ -361,17 +360,12 @@ OldaleTown_Text_ThisIsAPokemonMart:
 	.string "a promotional item.$"
 
 OldaleTown_Text_PotionExplanation:
-	.string "A POTION can be used anytime, so it's\n"
-	.string "even more useful than a POKéMON CENTER\l"
-	.string "in certain situations.$"
+	.string "Proprietà di ADA\n"
+	.string "Compra articoli di CashOrTrash$"
 
 OldaleTown_Text_WaitDontComeInHere:
-	.string "Aaaaah! Wait!\n"
-	.string "Please don't come in here.\p"
-	.string "I just discovered the footprints of\n"
-	.string "a rare POKéMON!\p"
-	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "Hey non puoi andare da\n"
+	.string "Questa parte HAI CAPITO?!?$"
 
 OldaleTown_Text_DiscoveredFootprints:
 	.string "I just discovered the footprints of\n"
@@ -386,9 +380,10 @@ OldaleTown_Text_FinishedSketchingFootprints:
 	.string "own footprints…$"
 
 OldaleTown_Text_MayLetsGoBack:
-	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "Over here!\l"
-	.string "Let's hurry home!$"
+	.string "LUIGIA: {PLAYER}{KUN}!\n"
+	.string "Ho trovato dei soldi per strada\l"
+	.string "mentre stavo andando in ospedale!\l"
+    .string "hahahahaha, Dai vieni al LAB$"
 
 OldaleTown_Text_BrendanLetsGoBack:
 	.string "BRENDAN: I'm heading back to my dad's\n"
@@ -397,5 +392,5 @@ OldaleTown_Text_BrendanLetsGoBack:
 
 OldaleTown_Text_TownSign:
 	.string "OLDALE TOWN\n"
-	.string "“Where things start off scarce.”$"
+	.string "“La città di passaggio”$"
 
