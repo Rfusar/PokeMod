@@ -232,13 +232,39 @@ PetalburgCity_EventScript_CitySign::
 	msgbox PetalburgCity_Text_CitySign, MSGBOX_SIGN
 	end
 
+//ADDMONEY
+PetalburgCity_EventScript_Gentleman_str:
+    .string "{PLAYER} controlla il portafoglio$"
+PetalburgCity_EventScript_Gentleman_func::
+    setflag FLAG_UNUSED_0x023
+    addmoney 500
+    msgbox PetalburgCity_EventScript_Gentleman_str
+    release
+    end
 PetalburgCity_EventScript_Gentleman::
 	msgbox PetalburgCity_Text_FullPartyExplanation, MSGBOX_NPC
+    goto_if_unset FLAG_UNUSED_0x023, PetalburgCity_EventScript_Gentleman_func
 	end
+//
+//ADDMONEY
+
+PetalburgCity_EventScript_WallyHouseSign_str:
+    .string "{PLAYER} hai trovato la prima\n"
+    .string "fonte di soldi infiniti...\p"
+    .string "POTENZA 3... Guarda il portafoglio.$"
+PetalburgCity_EventScript_WallyHouseSign_func::
+	msgbox PetalburgCity_Text_WallyHouseSign, MSGBOX_SIGN
+    msgbox PetalburgCity_EventScript_WallyHouseSign_str
+    setflag FLAG_UNUSED_0x024
+    release
+    end
 
 PetalburgCity_EventScript_WallyHouseSign::
-	msgbox PetalburgCity_Text_WallyHouseSign, MSGBOX_SIGN
+    addmoney 3
+    goto_if_unset FLAG_UNUSED_0x024, PetalburgCity_EventScript_WallyHouseSign_func
+    release
 	end
+//
 
 PetalburgCity_EventScript_ShowGymToPlayer0::
 	lockall
@@ -705,17 +731,14 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-	.string "Where has our WALLY gone?\p"
-	.string "We have to leave for VERDANTURF TOWN\n"
-	.string "very soon…$"
+	.string "WALLY è un Strano?\p"
+	.string "ha lasciato VERDANTURF TOWN\n"
+	.string "bah.$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
-	.string "Hiya! Are you maybe…\n"
-	.string "A rookie TRAINER?\p"
-	.string "Do you know what POKéMON TRAINERS\n"
-	.string "do when they reach a new town?\p"
-	.string "They first check what kind of GYM\n"
-	.string "is in the town.$"
+	.string "Vai a ricordarti come\n"
+    .string "si catturano i POKèMON...\p"
+    .string "entra dentro la palestra.$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
 	.string "See? This is PETALBURG CITY's GYM.$"
@@ -725,17 +748,10 @@ PetalburgCity_Text_ThisIsGymSign:
 	.string "whenever you're looking for a GYM.$"
 
 PetalburgCity_Text_WaterReflection:
-	.string "My face is reflected in the water.\p"
-	.string "It's a shining grin full of hope…\p"
-	.string "Or it could be a look of somber silence\n"
-	.string "struggling with fear…\p"
-	.string "What do you see reflected in your face?$"
+	.string "Prima qui L'acqua era verde.\p"
 
 PetalburgCity_Text_FullPartyExplanation:
-	.string "Let's say you have six POKéMON.\n"
-	.string "If you catch another one…\p"
-	.string "It is automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
+	.string "{PLAYER}, INTER... INTER$"
 
 PetalburgCity_Text_GymSign:
 	.string "PETALBURG CITY POKéMON GYM\n"

@@ -263,11 +263,19 @@ LittlerootTown_BrendansHouse_2F_EventScript_CheckRivalsPC::
 	msgbox gText_PokemonTrainerSchoolEmail, MSGBOX_DEFAULT
 	releaseall
 	end
+//TRUCCHI
+PlayersHouse_2F_EventScript_Notebook_yes::
+    giveitem ITEM_MASTER_BALL, 50
+    giveitem ITEM_RARE_CANDY, 500
+    addmoney 100000
+    end
 
 PlayersHouse_2F_EventScript_Notebook::
-	msgbox PlayersHouse_2F_Text_Notebook, MSGBOX_SIGN
+	msgbox PlayersHouse_2F_Text_Notebook, MSGBOX_YESNO
+    goto_if_eq VAR_RESULT, YES, PlayersHouse_2F_EventScript_Notebook_yes
+    release
 	end
-
+//
 PlayersHouse_2F_EventScript_GameCube::
 	msgbox PlayersHouse_2F_Text_ItsAGameCube, MSGBOX_SIGN
 	end
@@ -284,7 +292,8 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "Vado giu, vieni?$"
 
 PlayersHouse_2F_Text_Notebook:
-    .string "{PLAYER} ha trovato dei soldi$"
+    .string "{PLAYER} Vuoi avere Tanti soldi,\n"
+    .string "MASTERBALLs e CANDYs?$"
 
 Common_Text_LookCloserAtMap:
 	.string "{PLAYER} Guarda la mappa$"

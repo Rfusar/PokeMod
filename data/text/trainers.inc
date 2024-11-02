@@ -1,11 +1,11 @@
 Route102_Text_CalvinIntro:
-	.string "If you have POKéMON with you, then\n"
-	.string "you're an official POKéMON TRAINER!\l"
-	.string "You can't say no to my challenge!$"
+	.string "Combatti {PLAYER}\n"
+	.string "Sono migliorato dall'ultima volta.$"
 
 Route102_Text_CalvinDefeated:
-	.string "Arrgh, I lost…\n"
-	.string "I should have trained mine more…$"
+	.string "Ahaha, sei il migliore {PLAYER}\n"
+    .string "m'insegnerai ad essere\p"
+    .string "cosi bravo un giorno?$"
 
 Route102_Text_CalvinPostBattle:
 	.string "Listen, you. If you're strong,\n"
@@ -43,8 +43,7 @@ Route102_Text_AllenDefeated:
 	.string "I could beat you…$"
 
 Route102_Text_AllenPostBattle:
-	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
+	.string "Non ho tempo ora, Aria.$"
 
 Route102_Text_RickIntro:
 	.string "Hahah! Our eyes met!\n"
@@ -58,16 +57,13 @@ Route102_Text_RickPostBattle:
 	.string "you have to challenge! It's a rule!$"
 
 Route102_Text_TianaIntro:
-	.string "I'm going to keep winning and aim\n"
-	.string "to be the best TRAINER.\p"
-	.string "Help me further my career!$"
+	.string "TI ROMPO INSETTO!!$"
 
 Route102_Text_TianaDefeated:
-	.string "I ended up furthering your career…$"
+	.string "{PLAYER}, WoW, ma sei bravissimo...$"
 
 Route102_Text_TianaPostBattle:
-	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more POKéMON.$"
+	.string "Sai anche Fuso m'ha fatto il mazzo."
 
 Route103_Text_DaisyIntro:
 	.string "Did you feel the tug of our\n"
@@ -874,15 +870,14 @@ Route109_Text_RickyRematchPostBattle:
 	.string "seems to taste a little better.$"
 
 Route109_Text_LolaIntro:
-	.string "Doesn't a beach umbrella look like\n"
-	.string "a giant flower?$"
+	.string "T'UCCIDO DIO CANE!!!\n"
 
 Route109_Text_LolaDefeated:
-	.string "Mommy!$"
+	.string "Mmh...$"
 
 Route109_Text_LolaPostBattle:
-	.string "If you look at the beach from the sky,\n"
-	.string "it looks like a big flower garden!$"
+	.string "Devo imparare a controllarmi...\n"
+	.string "Scusa per prima {PLAYER}."
 
 Route109_Text_LolaRegister:
 	.string "Me?\n"
@@ -2339,17 +2334,13 @@ Route116_Text_JohnsonPostBattle:
 	.string "me company?$"
 
 Route117_Text_IsaacIntro:
-	.string "Listen, could I get you to battle\n"
-	.string "the POKéMON I'm raising?$"
+	.string "DAI TIRA FUORI LE PALLE, Coglione.$"
 
 Route117_Text_IsaacDefeat:
-	.string "You've raised yours superbly…$"
+	.string "Ahahah fai ridere.$"
 
 Route117_Text_IsaacPostBattle:
-	.string "POKéMON isn't all about power.\p"
-	.string "Polishing a unique aspect of one's\n"
-	.string "character is another way of enjoying\l"
-	.string "POKéMON.$"
+	.string "La Droga... che bella la droga.$"
 
 Route117_Text_IsaacRegister:
 	.string "I'm going to redouble my training.\n"

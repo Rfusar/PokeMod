@@ -9,10 +9,10 @@ gText_SavingDontTurnOff::
 	.string "3... 2... 1$"
 
 gText_PlayerSavedGame::
-	.string "Fatto, vai pure {PLAYER}$"
+	.string "Fatto, vai pure {PLAYER}.$"
 
 gText_DifferentSaveFile::
-	.string "Sovraccarico i dati$"
+	.string "Sovraccarico i dati?$"
 
 gText_SaveError::
 	.string "Save error.\p"

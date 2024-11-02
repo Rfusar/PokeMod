@@ -21,13 +21,14 @@ OldaleTown_PokemonCenter_1F_EventScript_Nurse::
 
 //
 OldaleTown_PokemonCenter_1F_EventScript_Gentleman_extra0_str:
-    .string "{PLAYER} riceve 500$"
+    .string "{PLAYER} guarda il portafoglio...$"
 
 OldaleTown_PokemonCenter_1F_EventScript_Gentleman_extra0::
     addmoney 500
     giveitem ITEM_POKE_BALL, 20
     msgbox OldaleTown_PokemonCenter_1F_EventScript_Gentleman_extra0_str
     setflag FLAG_UNUSED_0x021
+    release
     end
 
 OldaleTown_PokemonCenter_1F_EventScript_Gentleman::
@@ -63,19 +64,11 @@ OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
 	.string "La droga... quella notte...$"
 
 OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
-	.string "POKéMON CENTERS are great!\p"
-	.string "You can use their services as much\n"
-	.string "as you like, and it's all for free.\l"
-	.string "You never have to worry!$"
+	.string "Fuso è fortissimo qui...$"
 
 OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable:
-	.string "The POKéMON WIRELESS CLUB on\n"
-	.string "the second floor was built recently.\p"
-	.string "But they say they're still making\n"
-	.string "adjustments.$"
+	.string "Fuso t'amooo.$"
 
 OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
-	.string "The POKéMON WIRELESS CLUB on\n"
-	.string "the second floor was built recently.\p"
-	.string "I traded POKéMON right away.$"
+	.string "Fuso, ti amooooo tanto.$"
 

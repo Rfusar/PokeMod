@@ -240,9 +240,25 @@ PetalburgWoods_Movement_AquaApproachPlayer:
 	walk_down
 	step_end
 
+//TEXT
+PetalburgWoods_EventScript_Boy1_str1:
+    .string "Non ce l'ho, tossica... fa male.$"
+PetalburgWoods_EventScript_Boy1_str2:
+    .string "Bravo, fai bene.$"
+PetalburgWoods_EventScript_Boy1_func1::
+    msgbox PetalburgWoods_EventScript_Boy1_str1
+    release
+    end
+PetalburgWoods_EventScript_Boy1_func2::
+    msgbox PetalburgWoods_EventScript_Boy1_str2
+    release
+    end
 PetalburgWoods_EventScript_Boy1::
-	msgbox PetalburgWoods_Text_StayOutOfTallGrass, MSGBOX_NPC
+	msgbox PetalburgWoods_Text_StayOutOfTallGrass, MSGBOX_YESNO
+    goto_if_eq VAR_RESULT, YES PetalburgWoods_EventScript_Boy1_func1
+    goto_if_eq VAR_RESULT, NO PetalburgWoods_EventScript_Boy1_func2
 	end
+//
 
 PetalburgWoods_EventScript_Boy2::
 	msgbox PetalburgWoods_Text_HiddenItemsExplanation, MSGBOX_NPC
@@ -319,65 +335,53 @@ PetalburgWoods_EventScript_JamesRematch::
 	end
 
 PetalburgWoods_Text_NotAOneToBeFound:
-	.string "Hmmm…\n"
-	.string "Not a one to be found…$"
+	.string "Mmmm Ash, dove seii?..$"
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
-	.string "Hello, have you seen any POKéMON\n"
-	.string "called SHROOMISH around here?\p"
-	.string "I really love that POKéMON.$"
+	.string "Ciao, anche tu stai\n"
+    .string "aspettatando Raschosha?$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
-	.string "I was going to ambush you, but you\n"
-	.string "had to dawdle in PETALBURG WOODS\l"
-	.string "forever, didn't you?\p"
-	.string "I got sick of waiting, so here I am!$"
+	.string "Datemi tutto quello che avete...\n"
+	.string "Adesso.. CAZZO VELOCI.$"
 
 PetalburgWoods_Text_HandOverThosePapers:
-	.string "You! DEVON RESEARCHER!\p"
-	.string "Hand over those papers!$"
+	.string "CAPITE O NO?!?\p"
 
 PetalburgWoods_Text_YouHaveToHelpMe:
-	.string "Aiyeeeh!\p"
-	.string "You're a POKéMON TRAINER, aren't you?\n"
-	.string "You've got to help me, please!$"
+	.string "aaaaaAAAHH.$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
-	.string "Hunh? What do you think you're doing?\n"
-	.string "What, you're going to protect him?\p"
-	.string "No one who crosses TEAM AQUA\n"
-	.string "gets any mercy, not even a kid!\p"
-	.string "Come on and battle me!$"
+	.string "Allora?!?$"
 
 PetalburgWoods_Text_YoureKiddingMe:
 	.string "You're kidding me! You're tough!$"
 
 PetalburgWoods_Text_YouveGotSomeNerve:
-	.string "Grrr… You've got some nerve\n"
-	.string "meddling with TEAM AQUA!\l"
-	.string "Come on and battle me again!\p"
-	.string "I wish I could say that, but I'm out of\n"
-	.string "POKéMON…\p"
-	.string "And, hey, we of TEAM AQUA are also\n"
-	.string "after something in RUSTBORO.\p"
-	.string "I'll let you go today!$"
+	.string "... ... AAAAAAHHHHH.$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
-	.string "Whew…\n"
-	.string "That was awfully close!\p"
-	.string "Thanks to you, he didn't rob me of\n"
-	.string "these important papers.\p"
-	.string "I know, I'll give you a GREAT BALL as\n"
-	.string "my thanks!$"
+	.string "Meno male che ci velia\n"
+	.string "Il grande Fuso...\p"
+	.string "Comunque, quello era uno\n"
+    .string "della banda cattiva...\p"
+	.string "Cattivissima. In pratica\n"
+	.string "5 anni fa, Il Prof, Fuso e Tony...\p"
+	.string "ah si, aspetta..."
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that TEAM AQUA thug say\n"
-	.string "they were after something in\l"
-	.string "RUSTBORO, too?$"
+	.string "sisi, allora... \n"
+	.string "Stavano andando da mido\p"
+    .string "che Il Prof doveva prendere\n"
+    .string "i filtri di carta che eravamo a secco.\p"
+    .string "DRIIN ... DRIIN ...\n"
+    .string "... DRIIN ...\p"
+    .string "Pronto!... Si, dove sei te?!\n"
+    .string "Mmmm Arrivo dai, sisi, ciao ciao.$"
 
 PetalburgWoods_Text_ICantBeWastingTime:
-	.string "Uh-oh! It's a crisis!\n"
-	.string "I can't be wasting time!$"
+	.string "Scusami {PLAYER}\n"
+    .string "Scappo... ciao.$"
 
 PetalburgWoods_Text_YoureLoadedWithItems:
 	.string "You're loaded with items.\n"
@@ -430,11 +434,7 @@ PetalburgWoods_Text_IveBeenTrainingHard:
 	.string "So, I've been training hard.$"
 
 PetalburgWoods_Text_StayOutOfTallGrass:
-	.string "Yo, there!\n"
-	.string "Your POKéMON doing okay?\p"
-	.string "If your POKéMON are weak and you want\n"
-	.string "to avoid battles, you should stay out\l"
-	.string "of tall grass.$"
+	.string "Ciao {PLAYER}, Vuoi un pò di Ketha?$"
 
 PetalburgWoods_Text_HiddenItemsExplanation:
 	.string "Sometimes, there are things on the\n"
@@ -457,14 +457,7 @@ PetalburgWoods_Text_MiracleSeedExplanation:
 	.string "to hold.$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
-	.string "TRAINER TIPS\p"
-	.string "Any POKéMON that appears even once\n"
-	.string "in a battle is awarded EXP Points.\p"
-	.string "To raise a weak POKéMON, put it at the\n"
-	.string "left of the team list.\p"
-	.string "As soon as a battle starts, switch it\n"
-	.string "out. It will earn EXP Points without\l"
-	.string "being exposed to any harm.$"
+    .string "Devi credere nelle idee che hai!.$"
 
 PetalburgWoods_Text_TrainerTipsPP:
 	.string "TRAINER TIPS\p"
