@@ -688,30 +688,29 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "FUORI QUI SI LAVORA!!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
-	.string "Prof: quindi, {PLAYER}{KUN}.\p"
-	.string "Grazie per prima, sai le cose\n"
-    .string "sono cambiate qua.\p"
-	.string "LUIGIA deve girare una serie\l"
-    .string "e si deve allanare coi POKèMON\p"
-	.string "aiutala sta in fondo alla strada\n"
-    .string "Sempre dritto.$"
-    .string "Vi ho visto affiatati prima\n"
-    .string "voi due... è un POKèMON curioso\l"
+	.string "Prof: quindi, {PLAYER}{KUN}.\n"
+	.string "Grazie per prima, sai le cose\p"
+    .string "sono cambiate qua.\n"
+	.string "LUIGIA deve girare una serie\p"
+    .string "e si deve allanare coi POKèMON\n"
+    .string "Vi ho visto affiatati prima\p"
+    .string "voi due... è un POKèMON curioso\n"
     .string "Starà meglio con te\p"
 	.string "{PLAYER} received the {STR_VAR_1}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
-	.string "Ora ti rubo i soldi è cosi\n"
-    .string "che funziona qua.\n"
-	.string "give a nickname to that {STR_VAR_1}?$"
+	.string "Vuoi dargli un nomignolo a {STR_VAR_1}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "Prof: è un pò particolare\n"
-	.string "ahahah$"
+	.string "ahahah, è con me da un pò\p"
+	.string "Cambatte bene...\n"
+    .string "Ora vai da LUIGIA, è in fondo...\n"
+    .string "Route 103 se ricordo benealla strada.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
-	.string "Prof: Ollare Ollare fra\n"
-	.string "Cazzo ora devo lavorare$"
+	.string "Prof: Ollare Ollare fra,\n"
+	.string "Cazzo ora devo lavorare.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 	.string "Prof: Vai da LUIGIA ok?$"

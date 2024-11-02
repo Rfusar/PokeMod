@@ -288,9 +288,8 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
-	.string "JENNY: {PLAYER} ho preso anche\n"
-    .string "la tele nuova\p"
-	.string "Poi dovrò riverniciare il soggiorno$"
+	.string "JENNY: Hey ciao, {PLAYER}\n"
+    .string "sto ristrutturando un pò...$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "Beh finiranno dopo...\n"
@@ -307,8 +306,8 @@ PlayersHouse_1F_Text_ArentYouInterestedInRoom:
 	.string "very own room?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
-	.string "JENNY: {PLAYER}.\p"
-	.string "Go set the clock in your room, honey.$"
+	.string "Vai a sistemarmi sto cazzo\n"
+    .string "di orologio per favore$"
 
 PlayersHouse_1F_Text_OhComeQuickly:
 	.string "JENNY: Oh! {PLAYER}, {PLAYER}!$"
@@ -325,9 +324,9 @@ PlayersHouse_1F_Text_ItsOverWeMissedHim:
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "Vai a salutare LUIGIA\n"
-	.string "non più come te la ricordi...\p"
-	.string "è in fissa con i followers\n"
-	.string "beh niente, per il resto solito$"
+	.string "non è più la persona che ricordi...\p"
+	.string "è in fissa con i followers.\n"
+	.string "Beh niente, per il resto solito$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
 	.string "JENNY: Hai della Droga?!?$"
@@ -358,8 +357,7 @@ PlayersHouse_1F_Text_IsThatAPokenav:
 	.string "… … …$"
 
 PlayersHouse_1F_Text_RegisteredMom:
-	.string "Registered JENNY\n"
-	.string "in the POKéNAV.$"
+	.string "JENNY salvata nel POKéNAV.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
 	.string "Fugiiiiih!$"
@@ -369,7 +367,7 @@ PlayersHouse_1F_Text_Vigoroth2:
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
 	.string "TG1: Allora Daniele, \n"
-    .string "9 Dischi diamante, 150 Dischi D'Oro\l"
+    .string "9 Dischi diamante, 150 Dischi DI Platino\l"
     .string "Il primo ad arrivare a \l"
     .string "3Mld di Ascoltatori mensili...$"
 

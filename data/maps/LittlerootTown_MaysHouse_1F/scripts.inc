@@ -321,12 +321,12 @@ LittlerootTown_MaysHouse_1F_Movement_MayGoUpstairs2:
 	step_end
 
 RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
-	.string "Hey sei tornat' {PLAYER}\p"
+	.string "Hey sei tornata {PLAYER}\p"
 	.string "… … … … … … … … …\n"
 	.string "… … … … … … … … …\p"
-	.string "Bene bene, su ci dovrebbe\n"
-    .string "essere LUIGIA...\n"
-	.string "Dai muoviti, è LIVE su TWITCH\p$"
+	.string "Bene bene, ci dovrebbe\n"
+    .string "essere LUIGIA di sopra...\p"
+	.string "Dai muoviti, è LIVE su TWITCH.$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
 	.string "Like child, like father.\p"
@@ -358,14 +358,14 @@ RivalsHouse_1F_Text_MayWhoAreYou:
 	.string "Allora...\p"
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
-	.string "Minchia non sei cambiat',\n"
-	.string "ma tu non parli per risparmiare ossigeno?\p"
-	.string "Beh comunque\n"
+	.string "Minchia non sei cambiato,\n"
+	.string "ma tu non parli per risparmiare\p"
+    .string "ossigeno?... Beh comunque\n"
 	.string "Hai visto le tette nuove?\p"
 	.string "Nuovo investimento hahaha\n"
-	.string "Così per i prosssimi film... TOP\l"
-	.string "Ho sentito Pierluigi prima...\p"
-	.string "Isola, GF a mani basse poi...\n"
+	.string "Così per i prosssimi film... TOP\p"
+	.string "Ho sentito Pierluigi prima...\n"
+	.string "Isola, GF a mani basse poi...\p"
 	.string "Dai ti saluto che ho da fare$"
 
 RivalsHouse_1F_Text_BrendanWhoAreYou:

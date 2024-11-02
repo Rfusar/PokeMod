@@ -918,17 +918,8 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "JENNY: {PLAYER}, Ciao!\n"
-	.string "il Prof m'ha detto saresti\n"
-	.string "arrivat'.\p"
-	.string "Senti... ora mi stanno\n"
-	.string "sistemando la casa,\n"
-	.string "volevo rifare delle cosine\p"
-	.string "Senti un borlettino ce l'hai?\p"
-	.string "Il Prof è andato a prendere\n"
-	.string "tipo 5H fa, non è ancora tornato\p"
-	.string "Anzi oggi smetto, è\n"
-    .string "arrivato il momento...$"
+	.string "Fa un caldo maiale qua.\n"
+	.string "Sembrerebbe essere la cas giusta.$"
 
 LittlerootTown_Text_WaitPlayer:
 	.string "JENNY: {PLAYER} Aspetta!!$"
@@ -981,8 +972,8 @@ LittlerootTown_Text_DangerousIfYouDontHavePokemon:
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "Um, hey {PLAYER}!\n"
-	.string "C'è il Prof in pericolo...\l"
-	.string "AAAAAHHHH\p$"
+	.string "il Prof è in pericolo...\p"
+	.string "AAAAAHHHH$"
 
 LittlerootTown_Text_YouSavedBirch:
 	.string "Hai salvato Prof ora sta meglio...$"
