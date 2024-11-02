@@ -18,9 +18,23 @@ OldaleTown_PokemonCenter_1F_EventScript_Nurse::
 	release
 	end
 
+
+//
+OldaleTown_PokemonCenter_1F_EventScript_Gentleman_extra0_str:
+    .string "{PLAYER} riceve 500$"
+
+OldaleTown_PokemonCenter_1F_EventScript_Gentleman_extra0::
+    addmoney 500
+    giveitem ITEM_POKE_BALL, 20
+    msgbox OldaleTown_PokemonCenter_1F_EventScript_Gentleman_extra0_str
+    setflag FLAG_UNUSED_0x021
+    end
+
 OldaleTown_PokemonCenter_1F_EventScript_Gentleman::
 	msgbox OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC, MSGBOX_NPC
-	end
+    goto_if_unset FLAG_UNUSED_0x021, OldaleTown_PokemonCenter_1F_EventScript_Gentleman_extra0
+    end
+//
 
 OldaleTown_PokemonCenter_1F_EventScript_Boy::
 	msgbox OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat, MSGBOX_NPC
@@ -39,11 +53,14 @@ OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable::
 	release
 	end
 
+
+OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC_extra0:
+    .string "Mmh cosa c'entra Guccimane\n"
+    .string "con quella notte??$"
+
 OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
-	.string "That PC in the corner there is\n"
-	.string "for any POKéMON TRAINER to use.\p"
-	.string "Naturally, that means you're welcome\n"
-	.string "to use it, too.$"
+	.string "Fuso, GucciMane e l'eroina\n"
+	.string "La droga... quella notte...$"
 
 OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
 	.string "POKéMON CENTERS are great!\p"

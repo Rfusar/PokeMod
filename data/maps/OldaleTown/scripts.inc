@@ -33,11 +33,23 @@ OldaleTown_EventScript_TownSign::
 	msgbox OldaleTown_Text_TownSign, MSGBOX_SIGN
 	end
 
+//ADDMONEY
+OldaleTown_EventScript_Girl_0str:
+    .string "Regalo da Fuso... Controlla\n"
+    .string "il portafoglio.$"
+
+OldaleTown_EventScript_Girl_0::
+    addmoney 200
+    msgbox OldaleTown_EventScript_Girl_0str
+    release
+    setflag FLAG_UNUSED_0x022
+    end 
+
 OldaleTown_EventScript_Girl::
 	msgbox OldaleTown_Text_SavingMyProgress, MSGBOX_NPC
-    addmoney 10
+    goto_if_unset FLAG_UNUSED_0x022, OldaleTown_EventScript_Girl_0 
 	end
-
+//
 OldaleTown_EventScript_MartEmployee::
 	lock
 	faceplayer
@@ -352,12 +364,9 @@ OldaleTown_Text_IWorkAtPokemonMart:
 	.string "Allora come va?..\p$"
 
 OldaleTown_Text_ThisIsAPokemonMart:
-	.string "This is a POKéMON MART.\n"
-	.string "Just look for our blue roof.\p"
-	.string "We sell a variety of goods including\n"
-	.string "POKé BALLS for catching POKéMON.\p"
-	.string "Here, I'd like you to have this as\n"
-	.string "a promotional item.$"
+	.string "Questi sono i punti vendita\n"
+	.string "di CashOrTrash nel campo\p"
+	.string "Pokemon, sono bravi....$"
 
 OldaleTown_Text_PotionExplanation:
 	.string "Proprietà di ADA\n"
@@ -368,16 +377,10 @@ OldaleTown_Text_WaitDontComeInHere:
 	.string "Questa parte HAI CAPITO?!?$"
 
 OldaleTown_Text_DiscoveredFootprints:
-	.string "I just discovered the footprints of\n"
-	.string "a rare POKéMON!\p"
-	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "é bello il tempo, vero?$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
-	.string "I finished sketching the footprints of\n"
-	.string "a rare POKéMON.\p"
-	.string "But it turns out they were only my\n"
-	.string "own footprints…$"
+	.string "Dai vieni qua.$"
 
 OldaleTown_Text_MayLetsGoBack:
 	.string "LUIGIA: {PLAYER}{KUN}!\n"

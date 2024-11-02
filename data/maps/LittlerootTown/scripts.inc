@@ -266,11 +266,12 @@ LittlerootTown_EventScript_Twin::
 	release
 	end
 
+//SET Di TUTTI FLAG
 LittlerootTown_EventScript_GoSaveBirch::
-	special GetPlayerBigGuyGirlString
+    special GetPlayerBigGuyGirlString
 	msgbox LittlerootTown_Text_CanYouGoSeeWhatsHappening, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_TWIN, Common_Movement_FaceOriginalDirection
+    applymovement LOCALID_TWIN, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	setvar VAR_LITTLEROOT_TOWN_STATE, 2
 	release
@@ -925,19 +926,14 @@ LittlerootTown_Text_WaitPlayer:
 	.string "JENNY: {PLAYER} Aspetta!!$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
-	.string "JENNY: {PLAYER}! {PLAYER}! Did you\n"
-	.string "introduce yourself to PROF. BIRCH?\p"
-	.string "Oh! What an adorable POKéMON!\n"
-	.string "You got it from PROF. BIRCH. How nice!\p"
-	.string "You're your father's child, all right.\n"
-	.string "You look good together with POKéMON!\p"
-	.string "Here, honey! If you're going out on an\n"
-	.string "adventure, wear these RUNNING SHOES.\p"
-	.string "They'll put a zip in your step!$"
+	.string "ERIC: {PLAYER}! {PLAYER}! JENNY\n"
+	.string "m'ha detto di darti queste scarpe.\p"
+	.string "Ora è posseduta davanti la porta di casa\n"
+	.string "Non so... Ora vado dentro casa\p"
+	.string "Provo a sistemare la situazione.$"
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
-	.string "{PLAYER} switched shoes with the\n"
-	.string "RUNNING SHOES.$"
+	.string "{PLAYER} indossa le SHOES$"
 
 LittlerootTown_Text_ExplainRunningShoes:
 	.string "JENNY: {PLAYER}, those shoes came with\n"
@@ -948,14 +944,7 @@ LittlerootTown_Text_ExplainRunningShoes:
 	.string "in the great outdoors!”$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "To think that you have your very own\n"
-	.string "POKéMON now…\l"
-	.string "Your father will be overjoyed.\p"
-	.string "…But please be careful.\n"
-	.string "If anything happens, you can come home.\p"
-	.string "Go on, go get them, honey!$"
+	.string "Dai provale, Vai più veloce del vento.$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "Hai un deca?\n"

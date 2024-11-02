@@ -9,7 +9,7 @@ gText_RestoredPkmnToFullHealth::
 	.string "Ciaoooo\p$"
 
 gText_WeHopeToSeeYouAgain::
-	.string "We hope to see you again!$"
+	.string "Arrivederci...$"
 
 gText_WelcomeCutShort::
 	.string "Hello, and welcome to\n"

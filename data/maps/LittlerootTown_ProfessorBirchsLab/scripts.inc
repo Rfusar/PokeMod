@@ -692,7 +692,7 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "Grazie per prima, sai le cose\p"
     .string "sono cambiate qua.\n"
 	.string "LUIGIA deve girare una serie\p"
-    .string "e si deve allanare coi POKèMON\n"
+    .string "e si deve allanare coi POKèMON.\n"
     .string "Vi ho visto affiatati prima\p"
     .string "voi due... è un POKèMON curioso\n"
     .string "Starà meglio con te\p"
@@ -713,15 +713,15 @@ LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 	.string "Cazzo ora devo lavorare.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
-	.string "Prof: Vai da LUIGIA ok?$"
+	.string "Prof: Vai da LUIGIA!!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "Prof: Dai {PLAYER} fuori dalle palle$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
     .string "Prof: Ciao {PLAYER}, è arrivato ora...\n"
-    .string "Sai io e Fuso stavamo sviluppando\l"
-    .string "un device dove poter registrare\l"
+    .string "Io e Fuso stavamo sviluppando\p"
+    .string "un device dove poter registrare\n"
     .string "i POKèMON, si chiama POKEDEX.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
@@ -740,9 +740,9 @@ LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "and do fieldwork again!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
-	.string "LUIGIA: Tieni {PLAYER}{KUN}!\n"
-	.string "Anche io ho il POKéDEX!\l"
-	.string "però il mio con i brillanti rosa!\p$"
+	.string "LUIGIA: {PLAYER}{KUN}!\n"
+	.string "Anche io ho il POKéDEX!\p"
+	.string "però il mio ha i brillantini rosa!\p$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 	.string "LUIGIA: Tieni 5 POKEBALL\n"

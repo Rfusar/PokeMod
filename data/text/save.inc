@@ -12,7 +12,7 @@ gText_PlayerSavedGame::
 	.string "Fatto, vai pure {PLAYER}$"
 
 gText_DifferentSaveFile::
-	.string "$"
+	.string "Sovraccarico i dati$"
 
 gText_SaveError::
 	.string "Save error.\p"
@@ -20,4 +20,4 @@ gText_SaveError::
 	.string "backup memory.$"
 
 gText_SavingDontTurnOffPower::
-	.string "$"
+	.string "Aspetta...$"

@@ -1,6 +1,16 @@
 //CUSTOM EVENT 
 LittlerootTown_EventScript_GetPotions::
     finditem ITEM_POTION, 5
+    finditem ITEM_NET_BALL, 3
+    finditem ITEM_DIVE_BALL, 3
+    finditem ITEM_NEST_BALL, 3
+    finditem ITEM_REPEAT_BALL, 3
+    finditem ITEM_TIMER_BALL, 3
+    finditem ITEM_LUXURY_BALL, 1
+    finditem ITEM_PREMIER_BALL, 1
+    finditem ITEM_GREAT_BALL, 5
+    finditem ITEM_ANTIDOTE, 2
+    finditem ITEM_PARALYZE_HEAL, 2
     end
 
 
